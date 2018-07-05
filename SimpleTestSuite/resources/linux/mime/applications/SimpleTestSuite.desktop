@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Science
+Comment=Физико-механические испытания на разрывной машине Tinius Olsen H25KS 
+Exec=SimpleTestSuite
+GenericName=Simple Test Suite
+Icon=SimpleTestSuite
+Name=SimpleTestSuite
+Type=Application

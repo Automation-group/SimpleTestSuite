@@ -1,0 +1,10 @@
+/usr/bin/SimpleTestSuite
+/usr/local/etc/lab5/SimpleTestSuite.conf
+/usr/share/icons/hicolor/22x22/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/48x48/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/32x32/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/24x24/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/64x64/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/16x16/apps/SimpleTestSuite.png
+/usr/share/icons/hicolor/scalable/apps/SimpleTestSuite.svg
+/usr/share/applications/SimpleTestSuite.desktop

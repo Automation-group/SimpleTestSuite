@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/images" >
+    <file>prepareSample.svg</file>
+    <file>pattern/lopatka.png</file>
+    <file>insertSample.svg</file>
+    <file>start2.svg</file>
+    <file>stop2.svg</file>
+    <file>warnUpFurnace.svg</file>
+    <file>warnUpFurnace2.svg</file>
+  </qresource>
+</RCC>
