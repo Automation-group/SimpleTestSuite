@@ -134,38 +134,38 @@ install(FILES SimpleTestSuite.conf
 
 
 # FreeDesktop .desktop and MIME resources
-if(UNIX)
+#if(UNIX)
     # Set paths
-    set(UNIX_MIME_DIR resources/linux/mime)
-    set(UNIX_MIMELNK_FILES ${UNIX_MIME_DIR}/mimelnk)
-    set(UNIX_MIME_FILES ${UNIX_MIME_DIR}/mime)
-    set(UNIX_ICONS_FILES ${UNIX_MIME_DIR}/icons)
-    set(UNIX_APPLICATIONS_FILES ${UNIX_MIME_DIR}/applications)
+#    set(UNIX_MIME_DIR resources/linux/mime)
+#    set(UNIX_MIMELNK_FILES ${UNIX_MIME_DIR}/mimelnk)
+#    set(UNIX_MIME_FILES ${UNIX_MIME_DIR}/mime)
+#    set(UNIX_ICONS_FILES ${UNIX_MIME_DIR}/icons)
+#    set(UNIX_APPLICATIONS_FILES ${UNIX_MIME_DIR}/applications)
 
     # Install Mimelnk directory
-    install(DIRECTORY ${UNIX_MIMELNK_FILES}
-            DESTINATION share
-            COMPONENT resources
-            PATTERN ".svn" EXCLUDE)
+#    install(DIRECTORY ${UNIX_MIMELNK_FILES}
+#            DESTINATION share
+#            COMPONENT resources
+#            PATTERN ".svn" EXCLUDE)
 
     # Install Mime directory
-    install(DIRECTORY ${UNIX_ICONS_FILES}
-            DESTINATION share
-            COMPONENT resources
-            PATTERN ".svn" EXCLUDE)
+#    install(DIRECTORY ${UNIX_ICONS_FILES}
+#            DESTINATION share
+#            COMPONENT resources
+#            PATTERN ".svn" EXCLUDE)
 
     # Install Icons
-    install(DIRECTORY ${UNIX_MIME_FILES}
-            DESTINATION share
-            COMPONENT resources
-            PATTERN ".svn" EXCLUDE)
+#    install(DIRECTORY ${UNIX_MIME_FILES}
+#            DESTINATION share
+#            COMPONENT resources
+#            PATTERN ".svn" EXCLUDE)
 
     # Install Applications directory (.desktop files)
-    install(DIRECTORY ${UNIX_APPLICATIONS_FILES}
-            DESTINATION share
-            COMPONENT resources
-            PATTERN ".svn" EXCLUDE)
-endif(UNIX)
+#    install(DIRECTORY ${UNIX_APPLICATIONS_FILES}
+#            DESTINATION share
+#            COMPONENT resources
+#            PATTERN ".svn" EXCLUDE)
+#endif(UNIX)
 
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "SimpleTestSuite")
