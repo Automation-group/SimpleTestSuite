@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Categories=Education;Science;Qt;
+Comment=Испытания на ползучесть на разрывной машине Tinius Olsen H25KS 
+Exec=creepTest
+GenericName=creepTest
+Icon=creepTest
+Name=creepTest
+Type=Application
